@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "2.3.1"
+numpy = "==1.26.4"
+matplotlib = "*"
+jupyter = "*"
+nbconvert = {extras = ["webpdf"], version = "*"}
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.12"
