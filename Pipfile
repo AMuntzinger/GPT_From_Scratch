@@ -4,10 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-torch = "2.3.1"
+torch = {file = "torch-2.5.1+cu121-cp312-cp312-win_amd64.whl"}
+jupyter = "*"
 numpy = "==1.26.4"
 matplotlib = "*"
-jupyter = "*"
 nbconvert = {extras = ["webpdf"], version = "*"}
 
 [dev-packages]
